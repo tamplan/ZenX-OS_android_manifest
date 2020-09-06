@@ -7,6 +7,10 @@
   <remote name="gitlab"
           fetch="ssh://git@gitlab.com" />
 
+  <remote name="private"
+          fetch="ssh://git@github.com/ZeNiXxX"
+          revision="ten" />
+
   <remote name="zenx"
           fetch="https://github.com/ZenX-OS"
           revision="ten" />
@@ -62,7 +66,7 @@
   <project path="external/pulse" name="android_external_pulse" remote="zenx"/>
 
   <!-- Frameworks -->
-  <project path="frameworks/base" name="android_frameworks_base" remote="zenx" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="private" />
   <project path="frameworks/av" name="android_frameworks_av" remote="zenx" />
   <project path="frameworks/native" name="android_frameworks_native" remote="zenx" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="zenx" />
@@ -102,7 +106,7 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="zenx" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="zenx" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="zenx" />
-  <project path="packages/apps/ZenHub" name="android_packages_apps_ZenHub" remote="zenx" />
+  <project path="packages/apps/ZenHub" name="android_packages_apps_ZenHub" remote="private" />
   <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="zenx" />
   <project path="packages/apps/Plugins" name="android_packages_apps_Plugins" remote="zenx" />
 
